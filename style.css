@@ -24,7 +24,7 @@ a:hover {
     bottom: 0;
     width: 100%;
     z-index: 100000;
-    background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
+    background: white url("img/pageload-spinner.gif") no-repeat center center;
 }
 
 .bloc {
@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: white(255, 255, 255, .6);
 }
 
 .d-bloc .a-btn:hover,
@@ -647,8 +647,7 @@ h5,
 h6,
 p,
 label,
-.btn,
-a {
+.btn{
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
@@ -702,6 +701,7 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    color: white;
 }
 
 h2 {
@@ -771,37 +771,37 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: black;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    background: black;
+    color: white!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    background: black!important;
+    color: white!important;
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color: white!important;
 }
 
 .ltc-white:hover {
-    color: #cccccc!important;
+    color: white!important;
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: black!important;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color: black!important;
 }
 
 .icon-dark-slate-blue {
@@ -1039,4 +1039,12 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+.descriptionAgence{
+    font-size: 18px;
+}
+
+.avisFourchette{
+    font-size: 18px;
 }
